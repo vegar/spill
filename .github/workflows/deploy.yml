@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: halifax.dreamhost.com
-        server-dir: spill.vi-kan.net
+        server-dir: spill.vi-kan.net/
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
